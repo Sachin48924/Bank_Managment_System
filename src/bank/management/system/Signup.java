@@ -13,7 +13,7 @@ public class Signup extends JFrame implements ActionListener {
     JButton next;
 
     JTextField textName ,textFname, textEmail,textAdd,textcity,textState,textPin;
-    JDateChooser dateChooser;
+    bank.management.system.JDateChooser dateChooser;
     Random ran = new Random();
     long first4 =(ran.nextLong() % 9000L) +1000L;
     String first = " " + Math.abs(first4);
